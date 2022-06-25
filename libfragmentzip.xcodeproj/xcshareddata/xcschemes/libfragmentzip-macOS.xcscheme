@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B315FDB42866CD91002E243C"
-               BuildableName = "liblibfragmentzip.a"
+               BuildableName = "libfragmentzip.a"
                BlueprintName = "fragmentzip-macOS"
                ReferencedContainer = "container:libfragmentzip.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B315FDB42866CD91002E243C"
-            BuildableName = "liblibfragmentzip.a"
+            BuildableName = "libfragmentzip.a"
             BlueprintName = "fragmentzip-macOS"
             ReferencedContainer = "container:libfragmentzip.xcodeproj">
          </BuildableReference>
