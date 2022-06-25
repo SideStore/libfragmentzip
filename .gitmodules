@@ -1,0 +1,3 @@
+[submodule "dependencies/libgeneral"]
+	path = dependencies/libgeneral
+	url = https://github.com/SideStore/libgeneral.git

@@ -7,11 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87B8C3441E0E9C37002F817D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 87B8C3431E0E9C37002F817D /* main.c */; };
-		87B8C34C1E0E9C4B002F817D /* libfragmentzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 87B8C34A1E0E9C4B002F817D /* libfragmentzip.c */; };
 		87B8C34F1E0E9C63002F817D /* libcurl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B8C34E1E0E9C63002F817D /* libcurl.tbd */; };
 		87CD9A3A1E0F108E00E566B7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CD9A391E0F108E00E566B7 /* libz.tbd */; };
+		B315FDAA2866CCF8002E243C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CD9A391E0F108E00E566B7 /* libz.tbd */; };
+		B315FDAB2866CCF8002E243C /* libcurl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B8C34E1E0E9C63002F817D /* libcurl.tbd */; };
+		B315FDB82866CD91002E243C /* fragmentzip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315FDB72866CD91002E243C /* fragmentzip.swift */; };
+		B315FDBC2866CD9E002E243C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 87B8C3431E0E9C37002F817D /* main.c */; };
+		B315FDBD2866CD9E002E243C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 87B8C3431E0E9C37002F817D /* main.c */; };
+		B315FDBE2866CDA8002E243C /* libfragmentzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 87B8C34A1E0E9C4B002F817D /* libfragmentzip.c */; };
+		B315FDBF2866CDC4002E243C /* liblibfragmentzip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B315FDB52866CD91002E243C /* liblibfragmentzip.a */; };
+		B315FDC72866CDD3002E243C /* fragmentzip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315FDB72866CD91002E243C /* fragmentzip.swift */; };
+		B315FDC82866CDD3002E243C /* libfragmentzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 87B8C34A1E0E9C4B002F817D /* libfragmentzip.c */; };
+		B315FDCF2866CDF1002E243C /* liblibfragmentzip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B315FDCE2866CDD3002E243C /* liblibfragmentzip.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B315FDC02866CDC4002E243C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87B8C3381E0E9C37002F817D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B315FDB42866CD91002E243C;
+			remoteInfo = fragmentzip;
+		};
+		B315FDD02866CDF1002E243C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87B8C3381E0E9C37002F817D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B315FDC52866CDD3002E243C;
+			remoteInfo = "libfragmentzip-iOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		87B8C33E1E0E9C37002F817D /* CopyFiles */ = {
@@ -23,6 +48,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		B315FDAC2866CCF8002E243C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B315FDB32866CD91002E243C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B315FDCA2866CDD3002E243C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +84,10 @@
 		87B8C34B1E0E9C4B002F817D /* libfragmentzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libfragmentzip.h; path = ../include/libfragmentzip/libfragmentzip.h; sourceTree = "<group>"; };
 		87B8C34E1E0E9C63002F817D /* libcurl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.tbd; path = usr/lib/libcurl.tbd; sourceTree = SDKROOT; };
 		87CD9A391E0F108E00E566B7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B315FDB02866CCF8002E243C /* libfragmentzip */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libfragmentzip; sourceTree = BUILT_PRODUCTS_DIR; };
+		B315FDB52866CD91002E243C /* liblibfragmentzip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibfragmentzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B315FDB72866CD91002E243C /* fragmentzip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fragmentzip.swift; sourceTree = "<group>"; };
+		B315FDCE2866CDD3002E243C /* liblibfragmentzip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibfragmentzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,8 +95,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B315FDBF2866CDC4002E243C /* liblibfragmentzip.a in Frameworks */,
 				87CD9A3A1E0F108E00E566B7 /* libz.tbd in Frameworks */,
 				87B8C34F1E0E9C63002F817D /* libcurl.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B315FDA92866CCF8002E243C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B315FDCF2866CDF1002E243C /* liblibfragmentzip.a in Frameworks */,
+				B315FDAA2866CCF8002E243C /* libz.tbd in Frameworks */,
+				B315FDAB2866CCF8002E243C /* libcurl.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B315FDB22866CD91002E243C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B315FDC92866CDD3002E243C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				87B8C3421E0E9C37002F817D /* libfragmentzip */,
+				B315FDB62866CD91002E243C /* fragmentzip */,
 				87B8C3411E0E9C37002F817D /* Products */,
 				87B8C34D1E0E9C63002F817D /* Frameworks */,
 			);
@@ -60,6 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				87B8C3401E0E9C37002F817D /* libfragmentzip */,
+				B315FDB02866CCF8002E243C /* libfragmentzip */,
+				B315FDB52866CD91002E243C /* liblibfragmentzip.a */,
+				B315FDCE2866CDD3002E243C /* liblibfragmentzip.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,12 +168,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B315FDB62866CD91002E243C /* fragmentzip */ = {
+			isa = PBXGroup;
+			children = (
+				B315FDB72866CD91002E243C /* fragmentzip.swift */,
+			);
+			path = fragmentzip;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		87B8C33F1E0E9C37002F817D /* libfragmentzip */ = {
+		87B8C33F1E0E9C37002F817D /* fragmentzip-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87B8C3471E0E9C37002F817D /* Build configuration list for PBXNativeTarget "libfragmentzip" */;
+			buildConfigurationList = 87B8C3471E0E9C37002F817D /* Build configuration list for PBXNativeTarget "fragmentzip-macOS" */;
 			buildPhases = (
 				87B8C33C1E0E9C37002F817D /* Sources */,
 				87B8C33D1E0E9C37002F817D /* Frameworks */,
@@ -97,11 +190,64 @@
 			buildRules = (
 			);
 			dependencies = (
+				B315FDC12866CDC4002E243C /* PBXTargetDependency */,
 			);
-			name = libfragmentzip;
+			name = "fragmentzip-macOS";
 			productName = libfragmentzip;
 			productReference = 87B8C3401E0E9C37002F817D /* libfragmentzip */;
 			productType = "com.apple.product-type.tool";
+		};
+		B315FDA62866CCF8002E243C /* fragmentzip-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B315FDAD2866CCF8002E243C /* Build configuration list for PBXNativeTarget "fragmentzip-iOS" */;
+			buildPhases = (
+				B315FDA72866CCF8002E243C /* Sources */,
+				B315FDA92866CCF8002E243C /* Frameworks */,
+				B315FDAC2866CCF8002E243C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B315FDD12866CDF1002E243C /* PBXTargetDependency */,
+			);
+			name = "fragmentzip-iOS";
+			productName = libfragmentzip;
+			productReference = B315FDB02866CCF8002E243C /* libfragmentzip */;
+			productType = "com.apple.product-type.tool";
+		};
+		B315FDB42866CD91002E243C /* libfragmentzip-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B315FDB92866CD91002E243C /* Build configuration list for PBXNativeTarget "libfragmentzip-macOS" */;
+			buildPhases = (
+				B315FDB12866CD91002E243C /* Sources */,
+				B315FDB22866CD91002E243C /* Frameworks */,
+				B315FDB32866CD91002E243C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libfragmentzip-macOS";
+			productName = fragmentzip;
+			productReference = B315FDB52866CD91002E243C /* liblibfragmentzip.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B315FDC52866CDD3002E243C /* libfragmentzip-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B315FDCB2866CDD3002E243C /* Build configuration list for PBXNativeTarget "libfragmentzip-iOS" */;
+			buildPhases = (
+				B315FDC62866CDD3002E243C /* Sources */,
+				B315FDC92866CDD3002E243C /* Frameworks */,
+				B315FDCA2866CDD3002E243C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libfragmentzip-iOS";
+			productName = fragmentzip;
+			productReference = B315FDCE2866CDD3002E243C /* liblibfragmentzip.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -109,11 +255,19 @@
 		87B8C3381E0E9C37002F817D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = tihmstar;
 				TargetAttributes = {
 					87B8C33F1E0E9C37002F817D = {
 						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					B315FDB42866CD91002E243C = {
+						CreatedOnToolsVersion = 13.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					B315FDC52866CDD3002E243C = {
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -130,7 +284,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87B8C33F1E0E9C37002F817D /* libfragmentzip */,
+				87B8C33F1E0E9C37002F817D /* fragmentzip-macOS */,
+				B315FDA62866CCF8002E243C /* fragmentzip-iOS */,
+				B315FDB42866CD91002E243C /* libfragmentzip-macOS */,
+				B315FDC52866CDD3002E243C /* libfragmentzip-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -140,12 +297,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87B8C3441E0E9C37002F817D /* main.c in Sources */,
-				87B8C34C1E0E9C4B002F817D /* libfragmentzip.c in Sources */,
+				B315FDBD2866CD9E002E243C /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B315FDA72866CCF8002E243C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B315FDBC2866CD9E002E243C /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B315FDB12866CD91002E243C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B315FDB82866CD91002E243C /* fragmentzip.swift in Sources */,
+				B315FDBE2866CDA8002E243C /* libfragmentzip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B315FDC62866CDD3002E243C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B315FDC72866CDD3002E243C /* fragmentzip.swift in Sources */,
+				B315FDC82866CDD3002E243C /* libfragmentzip.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B315FDC12866CDC4002E243C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B315FDB42866CD91002E243C /* libfragmentzip-macOS */;
+			targetProxy = B315FDC02866CDC4002E243C /* PBXContainerItemProxy */;
+		};
+		B315FDD12866CDF1002E243C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B315FDC52866CDD3002E243C /* libfragmentzip-iOS */;
+			targetProxy = B315FDD02866CDF1002E243C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		87B8C3451E0E9C37002F817D /* Debug */ = {
@@ -183,6 +378,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/dependencies/libgeneral/include\"",
+					"\"$(SRCROOT)/include\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -197,6 +396,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/dependencies/libgeneral/include\"",
+					"\"$(SRCROOT)/include\"",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -239,6 +442,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/dependencies/libgeneral/include\"",
+					"\"$(SRCROOT)/include\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -247,6 +454,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/dependencies/libgeneral/include\"",
+					"\"$(SRCROOT)/include\"",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -262,7 +473,7 @@
 					"$(SRCROOT)/include/",
 					/usr/local/include,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = libfragmentzip;
 			};
 			name = Debug;
 		};
@@ -275,7 +486,131 @@
 					"$(SRCROOT)/include/",
 					/usr/local/include,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = libfragmentzip;
+			};
+			name = Release;
+		};
+		B315FDAE2866CCF8002E243C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/include/",
+					/usr/local/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = libfragmentzip;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		B315FDAF2866CCF8002E243C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/include/",
+					/usr/local/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = libfragmentzip;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Release;
+		};
+		B315FDBA2866CD91002E243C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = libfragmentzip;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B315FDBB2866CD91002E243C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = libfragmentzip;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B315FDCC2866CDD3002E243C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = libfragmentzip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B315FDCD2866CDD3002E243C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = libfragmentzip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -291,11 +626,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87B8C3471E0E9C37002F817D /* Build configuration list for PBXNativeTarget "libfragmentzip" */ = {
+		87B8C3471E0E9C37002F817D /* Build configuration list for PBXNativeTarget "fragmentzip-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87B8C3481E0E9C37002F817D /* Debug */,
 				87B8C3491E0E9C37002F817D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B315FDAD2866CCF8002E243C /* Build configuration list for PBXNativeTarget "fragmentzip-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B315FDAE2866CCF8002E243C /* Debug */,
+				B315FDAF2866CCF8002E243C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B315FDB92866CD91002E243C /* Build configuration list for PBXNativeTarget "libfragmentzip-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B315FDBA2866CD91002E243C /* Debug */,
+				B315FDBB2866CD91002E243C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B315FDCB2866CDD3002E243C /* Build configuration list for PBXNativeTarget "libfragmentzip-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B315FDCC2866CDD3002E243C /* Debug */,
+				B315FDCD2866CDD3002E243C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
