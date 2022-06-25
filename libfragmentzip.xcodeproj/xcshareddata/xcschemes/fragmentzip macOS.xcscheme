@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "87B8C33F1E0E9C37002F817D"
                BuildableName = "libfragmentzip"
-               BlueprintName = "fragmentzip-macOS"
+               BlueprintName = "fragmentzip-cli-macOS"
                ReferencedContainer = "container:libfragmentzip.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +46,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "87B8C33F1E0E9C37002F817D"
             BuildableName = "libfragmentzip"
-            BlueprintName = "fragmentzip-macOS"
+            BlueprintName = "fragmentzip-cli-macOS"
             ReferencedContainer = "container:libfragmentzip.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "87B8C33F1E0E9C37002F817D"
             BuildableName = "libfragmentzip"
-            BlueprintName = "fragmentzip-macOS"
+            BlueprintName = "fragmentzip-cli-macOS"
             ReferencedContainer = "container:libfragmentzip.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B315FDA62866CCF8002E243C"
                BuildableName = "libfragmentzip"
-               BlueprintName = "fragmentzip-iOS"
+               BlueprintName = "fragmentzip-cli-iOS"
                ReferencedContainer = "container:libfragmentzip.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +46,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B315FDA62866CCF8002E243C"
             BuildableName = "libfragmentzip"
-            BlueprintName = "fragmentzip-iOS"
+            BlueprintName = "fragmentzip-cli-iOS"
             ReferencedContainer = "container:libfragmentzip.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B315FDA62866CCF8002E243C"
             BuildableName = "libfragmentzip"
-            BlueprintName = "fragmentzip-iOS"
+            BlueprintName = "fragmentzip-cli-iOS"
             ReferencedContainer = "container:libfragmentzip.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

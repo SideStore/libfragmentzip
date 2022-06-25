@@ -15,10 +15,10 @@
 		B315FDBC2866CD9E002E243C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 87B8C3431E0E9C37002F817D /* main.c */; };
 		B315FDBD2866CD9E002E243C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 87B8C3431E0E9C37002F817D /* main.c */; };
 		B315FDBE2866CDA8002E243C /* libfragmentzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 87B8C34A1E0E9C4B002F817D /* libfragmentzip.c */; };
-		B315FDBF2866CDC4002E243C /* liblibfragmentzip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B315FDB52866CD91002E243C /* liblibfragmentzip.a */; };
+		B315FDBF2866CDC4002E243C /* libfragmentzip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B315FDB52866CD91002E243C /* libfragmentzip.a */; };
 		B315FDC72866CDD3002E243C /* fragmentzip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315FDB72866CD91002E243C /* fragmentzip.swift */; };
 		B315FDC82866CDD3002E243C /* libfragmentzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 87B8C34A1E0E9C4B002F817D /* libfragmentzip.c */; };
-		B315FDCF2866CDF1002E243C /* liblibfragmentzip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B315FDCE2866CDD3002E243C /* liblibfragmentzip.a */; };
+		B315FDCF2866CDF1002E243C /* libfragmentzip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B315FDCE2866CDD3002E243C /* libfragmentzip.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,9 +85,9 @@
 		87B8C34E1E0E9C63002F817D /* libcurl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.tbd; path = usr/lib/libcurl.tbd; sourceTree = SDKROOT; };
 		87CD9A391E0F108E00E566B7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		B315FDB02866CCF8002E243C /* libfragmentzip */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libfragmentzip; sourceTree = BUILT_PRODUCTS_DIR; };
-		B315FDB52866CD91002E243C /* liblibfragmentzip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibfragmentzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B315FDB52866CD91002E243C /* libfragmentzip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfragmentzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B315FDB72866CD91002E243C /* fragmentzip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fragmentzip.swift; sourceTree = "<group>"; };
-		B315FDCE2866CDD3002E243C /* liblibfragmentzip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibfragmentzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B315FDCE2866CDD3002E243C /* libfragmentzip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfragmentzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B315FDBF2866CDC4002E243C /* liblibfragmentzip.a in Frameworks */,
+				B315FDBF2866CDC4002E243C /* libfragmentzip.a in Frameworks */,
 				87CD9A3A1E0F108E00E566B7 /* libz.tbd in Frameworks */,
 				87B8C34F1E0E9C63002F817D /* libcurl.tbd in Frameworks */,
 			);
@@ -105,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B315FDCF2866CDF1002E243C /* liblibfragmentzip.a in Frameworks */,
+				B315FDCF2866CDF1002E243C /* libfragmentzip.a in Frameworks */,
 				B315FDAA2866CCF8002E243C /* libz.tbd in Frameworks */,
 				B315FDAB2866CCF8002E243C /* libcurl.tbd in Frameworks */,
 			);
@@ -143,8 +143,8 @@
 			children = (
 				87B8C3401E0E9C37002F817D /* libfragmentzip */,
 				B315FDB02866CCF8002E243C /* libfragmentzip */,
-				B315FDB52866CD91002E243C /* liblibfragmentzip.a */,
-				B315FDCE2866CDD3002E243C /* liblibfragmentzip.a */,
+				B315FDB52866CD91002E243C /* libfragmentzip.a */,
+				B315FDCE2866CDD3002E243C /* libfragmentzip.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,9 +179,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		87B8C33F1E0E9C37002F817D /* fragmentzip-macOS */ = {
+		87B8C33F1E0E9C37002F817D /* fragmentzip-cli-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87B8C3471E0E9C37002F817D /* Build configuration list for PBXNativeTarget "fragmentzip-macOS" */;
+			buildConfigurationList = 87B8C3471E0E9C37002F817D /* Build configuration list for PBXNativeTarget "fragmentzip-cli-macOS" */;
 			buildPhases = (
 				87B8C33C1E0E9C37002F817D /* Sources */,
 				87B8C33D1E0E9C37002F817D /* Frameworks */,
@@ -192,14 +192,14 @@
 			dependencies = (
 				B315FDC12866CDC4002E243C /* PBXTargetDependency */,
 			);
-			name = "fragmentzip-macOS";
+			name = "fragmentzip-cli-macOS";
 			productName = libfragmentzip;
 			productReference = 87B8C3401E0E9C37002F817D /* libfragmentzip */;
 			productType = "com.apple.product-type.tool";
 		};
-		B315FDA62866CCF8002E243C /* fragmentzip-iOS */ = {
+		B315FDA62866CCF8002E243C /* fragmentzip-cli-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B315FDAD2866CCF8002E243C /* Build configuration list for PBXNativeTarget "fragmentzip-iOS" */;
+			buildConfigurationList = B315FDAD2866CCF8002E243C /* Build configuration list for PBXNativeTarget "fragmentzip-cli-iOS" */;
 			buildPhases = (
 				B315FDA72866CCF8002E243C /* Sources */,
 				B315FDA92866CCF8002E243C /* Frameworks */,
@@ -210,14 +210,14 @@
 			dependencies = (
 				B315FDD12866CDF1002E243C /* PBXTargetDependency */,
 			);
-			name = "fragmentzip-iOS";
+			name = "fragmentzip-cli-iOS";
 			productName = libfragmentzip;
 			productReference = B315FDB02866CCF8002E243C /* libfragmentzip */;
 			productType = "com.apple.product-type.tool";
 		};
-		B315FDB42866CD91002E243C /* libfragmentzip-macOS */ = {
+		B315FDB42866CD91002E243C /* fragmentzip-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B315FDB92866CD91002E243C /* Build configuration list for PBXNativeTarget "libfragmentzip-macOS" */;
+			buildConfigurationList = B315FDB92866CD91002E243C /* Build configuration list for PBXNativeTarget "fragmentzip-macOS" */;
 			buildPhases = (
 				B315FDB12866CD91002E243C /* Sources */,
 				B315FDB22866CD91002E243C /* Frameworks */,
@@ -227,14 +227,14 @@
 			);
 			dependencies = (
 			);
-			name = "libfragmentzip-macOS";
+			name = "fragmentzip-macOS";
 			productName = fragmentzip;
-			productReference = B315FDB52866CD91002E243C /* liblibfragmentzip.a */;
+			productReference = B315FDB52866CD91002E243C /* libfragmentzip.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B315FDC52866CDD3002E243C /* libfragmentzip-iOS */ = {
+		B315FDC52866CDD3002E243C /* fragmentzip-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B315FDCB2866CDD3002E243C /* Build configuration list for PBXNativeTarget "libfragmentzip-iOS" */;
+			buildConfigurationList = B315FDCB2866CDD3002E243C /* Build configuration list for PBXNativeTarget "fragmentzip-iOS" */;
 			buildPhases = (
 				B315FDC62866CDD3002E243C /* Sources */,
 				B315FDC92866CDD3002E243C /* Frameworks */,
@@ -244,9 +244,9 @@
 			);
 			dependencies = (
 			);
-			name = "libfragmentzip-iOS";
+			name = "fragmentzip-iOS";
 			productName = fragmentzip;
-			productReference = B315FDCE2866CDD3002E243C /* liblibfragmentzip.a */;
+			productReference = B315FDCE2866CDD3002E243C /* libfragmentzip.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -284,10 +284,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87B8C33F1E0E9C37002F817D /* fragmentzip-macOS */,
-				B315FDA62866CCF8002E243C /* fragmentzip-iOS */,
-				B315FDB42866CD91002E243C /* libfragmentzip-macOS */,
-				B315FDC52866CDD3002E243C /* libfragmentzip-iOS */,
+				87B8C33F1E0E9C37002F817D /* fragmentzip-cli-macOS */,
+				B315FDA62866CCF8002E243C /* fragmentzip-cli-iOS */,
+				B315FDB42866CD91002E243C /* fragmentzip-macOS */,
+				B315FDC52866CDD3002E243C /* fragmentzip-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -332,12 +332,12 @@
 /* Begin PBXTargetDependency section */
 		B315FDC12866CDC4002E243C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B315FDB42866CD91002E243C /* libfragmentzip-macOS */;
+			target = B315FDB42866CD91002E243C /* fragmentzip-macOS */;
 			targetProxy = B315FDC02866CDC4002E243C /* PBXContainerItemProxy */;
 		};
 		B315FDD12866CDF1002E243C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B315FDC52866CDD3002E243C /* libfragmentzip-iOS */;
+			target = B315FDC52866CDD3002E243C /* fragmentzip-iOS */;
 			targetProxy = B315FDD02866CDF1002E243C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -535,7 +535,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = libfragmentzip;
+				PRODUCT_NAME = fragmentzip;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -557,7 +557,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = libfragmentzip;
+				PRODUCT_NAME = fragmentzip;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -581,7 +581,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = libfragmentzip;
+				PRODUCT_NAME = fragmentzip;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -604,7 +604,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = libfragmentzip;
+				PRODUCT_NAME = fragmentzip;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -626,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87B8C3471E0E9C37002F817D /* Build configuration list for PBXNativeTarget "fragmentzip-macOS" */ = {
+		87B8C3471E0E9C37002F817D /* Build configuration list for PBXNativeTarget "fragmentzip-cli-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87B8C3481E0E9C37002F817D /* Debug */,
@@ -635,7 +635,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B315FDAD2866CCF8002E243C /* Build configuration list for PBXNativeTarget "fragmentzip-iOS" */ = {
+		B315FDAD2866CCF8002E243C /* Build configuration list for PBXNativeTarget "fragmentzip-cli-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B315FDAE2866CCF8002E243C /* Debug */,
@@ -644,7 +644,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B315FDB92866CD91002E243C /* Build configuration list for PBXNativeTarget "libfragmentzip-macOS" */ = {
+		B315FDB92866CD91002E243C /* Build configuration list for PBXNativeTarget "fragmentzip-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B315FDBA2866CD91002E243C /* Debug */,
@@ -653,7 +653,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B315FDCB2866CDD3002E243C /* Build configuration list for PBXNativeTarget "libfragmentzip-iOS" */ = {
+		B315FDCB2866CDD3002E243C /* Build configuration list for PBXNativeTarget "fragmentzip-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B315FDCC2866CDD3002E243C /* Debug */,
